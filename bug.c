@@ -1,0 +1,1 @@
+int main() {    int arr[5] = {1, 2, 3, 4, 5};    int *ptr = arr + 5; //This is the error. It points to memory beyond the array.    *ptr = 6; //This will lead to undefined behavior.    return 0;}
