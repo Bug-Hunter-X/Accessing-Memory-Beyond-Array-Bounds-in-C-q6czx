@@ -1,0 +1,1 @@
+int main() {    int arr[5] = {1, 2, 3, 4, 5};    //Corrected code: ensure pointer remains within array bounds.    int *ptr = arr; //Corrected to point to the first element.    if (ptr < arr + 5){ // Check if the pointer is within the bounds of the array *ptr = 6;     }  else {    printf("Pointer out of bounds");    }    return 0;} 
